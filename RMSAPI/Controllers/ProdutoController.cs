@@ -49,120 +49,130 @@ namespace RMSAPI.Controllers
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "AMPLIFICADOR_EDITION_BLUE_60R_HUGHES_&_KETTNER_60W",
+                    Descricao = "AMPLIFICADOR EDITION BLUE 60R HUGHES & KETTNER 60W",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 2000,
                     IdCategoria = 1,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id1_01.jpg")
+                    Foto = "https://loja.maximusic.com.br/Eshop.Admin/imagens/maximusic/Thumbs/TN500_EditionBlue60_Left.jpg"
+                    //Foto = _utilFoto.getFoto("prod_id1_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "EPIPHONE_WILDKAT_2006_SUNRISE_ORANGE",
+                    Descricao = "EPIPHONE WILDKAT 2006 SUNRISE ORANGE",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 3500,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id2_01.jpg")
+                    Foto = "https://guitargeargiveaway.co.uk/wp-content/uploads/2021/06/Epiphone-Wildcat-10-1200x675.jpg"
+                    //Foto = _utilFoto.getFoto("prod_id2_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "CONTRABAIXO_FENDER_SIG_SERIES_DUFF_MCKAGAN_DELUXE_PRECISION_BASS",
+                    Descricao = "CONTRABAIXO FENDER SIG SERIES DUFF MCKAGAN DELUXE PRECISION BASS",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 12996,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id3_01.jpg")
+                    Foto = "https://www.fender.com.br/imgs/produtos/gra/fender_10172248.jpg"
+                    //Foto = _utilFoto.getFoto("prod_id3_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "VIOLAO_GIBSON_SJ200_STANDARD",
+                    Descricao = "VIOLAO GIBSON SJ200 STANDARD",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 25500,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id4_01.jpg")
+                    Foto = "https://images.ctfassets.net/m8onsx4mm13s/45ZWoKaYg2QL7r3tZQR44D/ca4a3fb28df8e4e758fbbd095af634bc/__static.gibson.com_product-images_Acoustic_ACC55F178_Autumnburst_MCJB20AB_front.jpg?h=300"
+                    //Foto = _utilFoto.getFoto("prod_id4_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "VIOLINO_ANTONI_MARSALE_OFICINA_2022_GUARNERI",
+                    Descricao = "VIOLINO ANTONI MARSALE OFICINA 2022 GUARNERI",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 5500,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id5_01.jpg")
+                    Foto = "https://http2.mlstatic.com/D_NQ_NP_2X_888926-MLB52732862865_122022-F.webp" 
+                    //Foto = _utilFoto.getFoto("prod_id5_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "KIT_CONTRABAIXO_FENDER",
+                    Descricao = "KIT CONTRABAIXO FENDER",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 8000,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id6_01.jpg")
+                    Foto = "https://http2.mlstatic.com/D_NQ_NP_2X_889723-MLB46925600774_072021-F.webp"
+                    //Foto = _utilFoto.getFoto("prod_id6_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "BATERIA_PREMIER_SIGNIA_MAPLE_CHERRY_WOOD",
+                    Descricao = "BATERIA PREMIER SIGNIA MAPLE CHERRY WOOD",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 20000,
                     IdCategoria = 3,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id7_01.jpg")
+                    Foto = "https://cdnbatera.bateraclube.com.br/files/122/MED_Bateria-Premier-Signia-Maple-Cherry-Wood-22--8--10--12--14--16--(Seminovo)-Decada-90.JPG"
+                    //Foto = _utilFoto.getFoto("prod_id7_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "BATERIA_ACUSTICA_D_ONE_ROCKET_DR18",
+                    Descricao = "BATERIA ACUSTICA D ONE ROCKET DR18",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 3600,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id8_01.jpg")
+                    Foto = "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQyFXuh72oy0sAfFyLxBYyPgHpO3ty2WmweVJnSlJZ0PoOBlNOvS5PiOvADYYqhIRHk9UMgZcIvvkI4e1iUDRFWZ9dSi8oRCOup0uIjuBPzmxl-jXf6L37y"
+                    //Foto = _utilFoto.getFoto("prod_id8_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "ENCORDOAMENTO_DADDARIO_GUITARRA_010_EXL110",
+                    Descricao = "ENCORDOAMENTO DADDARIO GUITARRA 010 EXL110",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 67,
                     IdCategoria = 4,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id9_01.jpg")
+                    Foto = "https://http2.mlstatic.com/D_NQ_NP_2X_749797-MLB40512519815_012020-F.webp"
+                    ///Foto = _utilFoto.getFoto("prod_id9_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "CAPOTRASTE_JOYO",
+                    Descricao = "CAPOTRASTE JOYO",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 40,
                     IdCategoria = 4,
                     Status = 1,
-                    Foto = _utilFoto.getFoto("prod_id10_01.jpg")
+                    Foto = "https://sc04.alicdn.com/kf/HTB1Je1RXyYrK1Rjy0Fdq6ACvVXau.jpg"
+                    //Foto = _utilFoto.getFoto("prod_id10_01.jpg")
                 });
                 db.SaveChanges();
 
