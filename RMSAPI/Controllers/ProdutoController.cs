@@ -80,7 +80,7 @@ namespace RMSAPI.Controllers
                     ValorProduto = 12996,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = "https://www.fender.com.br/imgs/produtos/gra/fender_10172248.jpg"
+                    Foto = "https://www.samash.com/media/catalog/product/e/e/ee6cbfc9-b077-473a-bc4e-0eeb6c721121_wuzdmd5epke5znwi.jpeg?quality=80&bg-color=255,255,255&fit=bounds&height=1200&width=1200&canvas=1200:1200"
                     //Foto = _utilFoto.getFoto("prod_id3_01.jpg")
                 });
                 db.SaveChanges();
