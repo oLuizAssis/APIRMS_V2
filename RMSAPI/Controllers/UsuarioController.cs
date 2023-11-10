@@ -11,23 +11,17 @@ namespace RMSAPI.Controllers
     {
        
         [HttpGet]
-        [Route("GetLogar")]
-        public IActionResult GetLogar(string email, string senha)
+        [Route("ObterUsuario")]
+        public IActionResult GetLogar(string email)
         {
             RMSContext db = new RMSContext();
-           
-            if (db.Usuario.Where(x => x.Email == email && x.Senha == senha).FirstOrDefault() != null)
-            {
-                return Ok(true);
-            }
-            else
-            {
-                return NotFound();
-            }
 
+            var usuario = db.Usuario.Where(x => x.Email == email).FirstOrDefault();
+            if (usuario != null)
+                return Ok(usuario);
+            else
+                return NotFound();
            
         }
-
-
     }
 }

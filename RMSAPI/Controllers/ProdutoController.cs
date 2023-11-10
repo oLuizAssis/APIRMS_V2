@@ -55,7 +55,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 1,
                     Status = 1,
                     Foto = "https://loja.maximusic.com.br/Eshop.Admin/imagens/maximusic/Thumbs/TN500_EditionBlue60_Left.jpg"
-                    //Foto = _utilFoto.getFoto("prod_id1_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -68,7 +67,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 2,
                     Status = 1,
                     Foto = "https://guitargeargiveaway.co.uk/wp-content/uploads/2021/06/Epiphone-Wildcat-10-1200x675.jpg"
-                    //Foto = _utilFoto.getFoto("prod_id2_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -81,7 +79,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 2,
                     Status = 1,
                     Foto = "https://www.samash.com/media/catalog/product/e/e/ee6cbfc9-b077-473a-bc4e-0eeb6c721121_wuzdmd5epke5znwi.jpeg?quality=80&bg-color=255,255,255&fit=bounds&height=1200&width=1200&canvas=1200:1200"
-                    //Foto = _utilFoto.getFoto("prod_id3_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -94,7 +91,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 2,
                     Status = 1,
                     Foto = "https://images.ctfassets.net/m8onsx4mm13s/45ZWoKaYg2QL7r3tZQR44D/ca4a3fb28df8e4e758fbbd095af634bc/__static.gibson.com_product-images_Acoustic_ACC55F178_Autumnburst_MCJB20AB_front.jpg?h=300"
-                    //Foto = _utilFoto.getFoto("prod_id4_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -107,7 +103,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 2,
                     Status = 1,
                     Foto = "https://http2.mlstatic.com/D_NQ_NP_2X_888926-MLB52732862865_122022-F.webp" 
-                    //Foto = _utilFoto.getFoto("prod_id5_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -120,7 +115,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 2,
                     Status = 1,
                     Foto = "https://http2.mlstatic.com/D_NQ_NP_2X_889723-MLB46925600774_072021-F.webp"
-                    //Foto = _utilFoto.getFoto("prod_id6_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -133,7 +127,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 3,
                     Status = 1,
                     Foto = "https://cdnbatera.bateraclube.com.br/files/122/MED_Bateria-Premier-Signia-Maple-Cherry-Wood-22--8--10--12--14--16--(Seminovo)-Decada-90.JPG"
-                    //Foto = _utilFoto.getFoto("prod_id7_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -146,7 +139,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 2,
                     Status = 1,
                     Foto = "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQyFXuh72oy0sAfFyLxBYyPgHpO3ty2WmweVJnSlJZ0PoOBlNOvS5PiOvADYYqhIRHk9UMgZcIvvkI4e1iUDRFWZ9dSi8oRCOup0uIjuBPzmxl-jXf6L37y"
-                    //Foto = _utilFoto.getFoto("prod_id8_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -159,7 +151,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 4,
                     Status = 1,
                     Foto = "https://http2.mlstatic.com/D_NQ_NP_2X_749797-MLB40512519815_012020-F.webp"
-                    ///Foto = _utilFoto.getFoto("prod_id9_01.jpg")
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -172,7 +163,6 @@ namespace RMSAPI.Controllers
                     IdCategoria = 4,
                     Status = 1,
                     Foto = "https://sc04.alicdn.com/kf/HTB1Je1RXyYrK1Rjy0Fdq6ACvVXau.jpg"
-                    //Foto = _utilFoto.getFoto("prod_id10_01.jpg")
                 });
                 db.SaveChanges();
 
