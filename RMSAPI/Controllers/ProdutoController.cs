@@ -54,7 +54,7 @@ namespace RMSAPI.Controllers
                     ValorProduto = 2000,
                     IdCategoria = 1,
                     Status = 1,
-                    Foto = "https://loja.maximusic.com.br/Eshop.Admin/imagens/maximusic/Thumbs/TN500_EditionBlue60_Left.jpg"
+                    Foto = "https://www.musikland-online.de/pix/onlineshop/Hughes--Kettner-Editon-Blue-60-DFX-.jpg"
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
@@ -66,31 +66,31 @@ namespace RMSAPI.Controllers
                     ValorProduto = 3500,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = "https://guitargeargiveaway.co.uk/wp-content/uploads/2021/06/Epiphone-Wildcat-10-1200x675.jpg"
+                    Foto = "https://rvb-img.reverb.com/image/upload/s--xKZ5fPcT--/f_auto,t_supersize/v1552655568/bzstnspbcqyodlkzhisx.jpg"
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "CONTRABAIXO FENDER SIG SERIES DUFF MCKAGAN DELUXE PRECISION BASS",
+                    Descricao = "CONTRABAIXO SQUIER AFFINITY PRECISION PJ CHARCOAL FROST METALLIC",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 12996,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = "https://www.samash.com/media/catalog/product/e/e/ee6cbfc9-b077-473a-bc4e-0eeb6c721121_wuzdmd5epke5znwi.jpeg?quality=80&bg-color=255,255,255&fit=bounds&height=1200&width=1200&canvas=1200:1200"
+                    Foto = "https://static.mundomax.com.br/produtos/77069/550/1.webp"
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "VIOLAO GIBSON SJ200 STANDARD",
+                    Descricao = "VIOLAO GIBSON NOEL GALLAGHER J-150",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 25500,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = "https://images.ctfassets.net/m8onsx4mm13s/45ZWoKaYg2QL7r3tZQR44D/ca4a3fb28df8e4e758fbbd095af634bc/__static.gibson.com_product-images_Acoustic_ACC55F178_Autumnburst_MCJB20AB_front.jpg?h=300"
+                    Foto = "https://1.bp.blogspot.com/-Ju86PmkUMlk/YNI57BC4P4I/AAAAAAAAY2Y/jUzUIE_N0e4xWqtiK4XST4jQvc39BfpJwCLcBGAsYHQ/w640-h426/unnamed%2B%25281%2529.jpg"
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
