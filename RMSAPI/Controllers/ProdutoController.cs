@@ -78,7 +78,7 @@ namespace RMSAPI.Controllers
                     ValorProduto = 12996,
                     IdCategoria = 2,
                     Status = 1,
-                    Foto = "https://static.mundomax.com.br/produtos/77069/550/1.webp"
+                    Foto = "https://sirclocdn.com/nafiriguitar/products/_211109103414_AST%2052SH%20VWH%20-%20Copy%20-%20Copy_full.JPG"
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
