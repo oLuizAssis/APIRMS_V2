@@ -54,7 +54,7 @@ namespace RMSAPI.Controllers
                     ValorProduto = 2000,
                     IdCategoria = 1,
                     Status = 1,
-                    Foto = "https://www.musikland-online.de/pix/onlineshop/Hughes--Kettner-Editon-Blue-60-DFX-.jpg"
+                    Foto = "https://loja.maximusic.com.br/Eshop.Admin/imagens/maximusic/Thumbs/TN500_EditionBlue60_Left.jpg"
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
