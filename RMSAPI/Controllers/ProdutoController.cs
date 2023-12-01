@@ -49,6 +49,32 @@ namespace RMSAPI.Controllers
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
+                    Descricao = "EPIPHONE WILDKAT 2006 SUNRISE ORANGE",
+                    Estoque = rnd.Next(1, 99),
+                    ValorProduto = 3500,
+                    IdCategoria = 2,
+                    Status = 1,
+                    Foto = "https://rvb-img.reverb.com/image/upload/s--xKZ5fPcT--/f_auto,t_supersize/v1552655568/bzstnspbcqyodlkzhisx.jpg"
+                });
+                db.SaveChanges();
+
+                db.Produto.Add(new Produto()
+                {
+                    DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
+                    DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
+                    Descricao = "GUITARRA GIBSON LES PAUL CLASSIC HERITAGE CHERRY SUNBURST",
+                    Estoque = rnd.Next(1, 99),
+                    ValorProduto = 32465,
+                    IdCategoria = 1,
+                    Status = 1,
+                    Foto = "https://loja.maximusic.com.br/Eshop.Admin/imagens/maximusic/Thumbs/TN500_EditionBlue60_Left.jpg"
+                });
+                db.SaveChanges();
+
+                db.Produto.Add(new Produto()
+                {
+                    DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
+                    DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
                     Descricao = "AMPLIFICADOR EDITION BLUE 60R HUGHES & KETTNER 60W",
                     Estoque = rnd.Next(1, 99),
                     ValorProduto = 2000,
@@ -57,16 +83,30 @@ namespace RMSAPI.Controllers
                     Foto = "https://loja.maximusic.com.br/Eshop.Admin/imagens/maximusic/Thumbs/TN500_EditionBlue60_Left.jpg"
                 });
                 db.SaveChanges();
+
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
                     DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "EPIPHONE WILDKAT 2006 SUNRISE ORANGE",
+                    Descricao = "COMBO PARA GUITARRA MARSHALL DSL 20CR VALVULADO",
                     Estoque = rnd.Next(1, 99),
-                    ValorProduto = 3500,
-                    IdCategoria = 2,
+                    ValorProduto = 9031,
+                    IdCategoria = 1,
                     Status = 1,
-                    Foto = "https://rvb-img.reverb.com/image/upload/s--xKZ5fPcT--/f_auto,t_supersize/v1552655568/bzstnspbcqyodlkzhisx.jpg"
+                    Foto = "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQejIzRxIHSTfXPIhL_73IFuauqbKK6wqvG_ku2GiU7v6ib5IjO9SA2tiWKE1yFcxXEws2Btzhmq1F6qo8mYp4XbrR04_eQNRo4Dudzo0VWbz4Dq9sZ-bg4VQ"
+                });
+                db.SaveChanges();
+
+                db.Produto.Add(new Produto()
+                {
+                    DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
+                    DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
+                    Descricao = "COMBO PARA GUITARRA MARSHALL DSL 20CR VALVULADO",
+                    Estoque = rnd.Next(1, 99),
+                    ValorProduto = 9031,
+                    IdCategoria = 1,
+                    Status = 1,
+                    Foto = "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQejIzRxIHSTfXPIhL_73IFuauqbKK6wqvG_ku2GiU7v6ib5IjO9SA2tiWKE1yFcxXEws2Btzhmq1F6qo8mYp4XbrR04_eQNRo4Dudzo0VWbz4Dq9sZ-bg4VQ"
                 });
                 db.SaveChanges();
                 db.Produto.Add(new Produto()
