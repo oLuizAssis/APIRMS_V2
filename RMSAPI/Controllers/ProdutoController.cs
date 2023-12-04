@@ -67,7 +67,7 @@ namespace RMSAPI.Controllers
                     ValorProduto = 32465,
                     IdCategoria = 1,
                     Status = 1,
-                    Foto = "https://loja.maximusic.com.br/Eshop.Admin/imagens/maximusic/Thumbs/TN500_EditionBlue60_Left.jpg"
+                    Foto = "https://http2.mlstatic.com/D_NQ_NP_2X_838632-MLU71136349927_082023E-F.webp"
                 });
                 db.SaveChanges();
 
@@ -97,18 +97,6 @@ namespace RMSAPI.Controllers
                 });
                 db.SaveChanges();
 
-                db.Produto.Add(new Produto()
-                {
-                    DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
-                    DataSaida = DateTime.Now.AddDays(rnd.Next(1, 30)),
-                    Descricao = "COMBO PARA GUITARRA MARSHALL DSL 20CR VALVULADO",
-                    Estoque = rnd.Next(1, 99),
-                    ValorProduto = 9031,
-                    IdCategoria = 1,
-                    Status = 1,
-                    Foto = "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQejIzRxIHSTfXPIhL_73IFuauqbKK6wqvG_ku2GiU7v6ib5IjO9SA2tiWKE1yFcxXEws2Btzhmq1F6qo8mYp4XbrR04_eQNRo4Dudzo0VWbz4Dq9sZ-bg4VQ"
-                });
-                db.SaveChanges();
                 db.Produto.Add(new Produto()
                 {
                     DataEntrada = DateTime.Now.AddDays(-1 * (rnd.Next(1, 30))),
