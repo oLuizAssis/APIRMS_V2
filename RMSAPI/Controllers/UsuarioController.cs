@@ -46,7 +46,7 @@ namespace RMSAPI.Controllers
 
         [HttpPost]
         [Route("CadastrarUsuario")]
-        public IActionResult CadastrarUsuario([FromBody] Usuario novoUsuario)
+        public IActionResult CadastrarUsuario(Usuario novoUsuario)
         {
             try
             {

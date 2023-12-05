@@ -9,11 +9,11 @@ namespace RMSAPI.Models
         [JsonPropertyName("ID")]
         public int Id { get; set; }
         [JsonPropertyName("NOME")]
-        public string? Nome { get; set; }
+        public string Nome { get; set; }
         [JsonPropertyName("SENHA")]
         public string? Senha { get; set; }
         [JsonPropertyName("CPF")]
-        public string? CPF { get; set; }
+        public string CPF { get; set; }
         [JsonPropertyName("EMAIL")]
         public string? Email { get; set; }
         [JsonPropertyName("CEP")]
